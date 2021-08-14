@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotspot</title>
+  <link rel="stylesheet" href="./assets/css/tailwind.css">
+  <link rel="stylesheet" href="./assets/font/stylesheet.css">
+  <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+<body>
+  <div class="body-section flex flex-col lg:flex-row relative w-screen lg:h-screen">
+    <div class="yellow-bg relative h-screen lg:h-full flex flex-col justify-between bg-ui-pri w-full lg:w-1/2">
+      <div class="text-desc flex flex-col items-center relative mx-auto mt-3 lg:mt-12 w-5/6">
+        <img class="lg:hidden mb-6 w-14 h-14" src="./assets/images/paritie-logo.png" alt="paritie logo">
+        <h1 class="text-anim absolute mt-20 lg:mt-0 font-bold w-full text-center lg:text-left lg:w-7/12 xl:w-3/4 big:w-full text-ui-base text-3xl lg:text-5xl leading-tight big:leading-none big:text-7xl">We nurture Ideas to sustainable Ventures</h1>
+        <div class="text-anim mt-20 lg:mt-0 absolute w-full">
+          <h2 class="font-bold text-ui-base leading-none text-3xl lg:text-5xl xl:text-6xl xl:leading-tight big:leading-none big:text-7xl">Co-Working Space</h2>
+          <p class="text-white font-medium mt-3 lg:mt-5 text-sm lg:text-base xl:text-lg big:text-2xl">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet</p>
+        </div>
+        <div class="text-anim mt-20 lg:mt-0 absolute w-full">
+          <h2 class="font-bold text-ui-base text-3xl leading-none lg:text-5xl xl:text-6xl xl:leading-tight big:leading-none big:text-7xl">Business Advisory</h2>
+          <p class="text-white font-medium mt-5 text-sm lg:text-base xl:text-lg big:text-2xl">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet</p>
+        </div>
+        <div class="text-anim mt-20 lg:mt-0 absolute w-full">
+          <h2 class="font-bold text-ui-base text-3xl leading-none lg:text-5xl xl:text-6xl xl:leading-tight big:leading-none big:text-7xl">Linkages</h2>
+          <p class="text-white font-medium mt-5 text-sm lg:text-base xl:text-lg big:text-2xl">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet</p>
+        </div>
+      </div>
+      <img class="workspace lg:w-80 z-0 relative  mb-5 big:mb-10 big:w-96" src="./assets/images/workspace.svg" alt="workspace illustration">
+      <img class="absolute hidden lg:block bottom-0 left-0 w-full" src="./assets/images/Floor.svg" alt="Floor Illustration">
+      <div class="sign-in-mob lg:hidden absolute bottom-0 left-0 z-10 bg-ui-base bg-opacity-60 w-full h-20 flex items-center justify-center">
+        <button class="login-mob cursor-pointer font-bold text-white bg-ui-pri py-4 w-5/6 rounded-4xl">Log In</button>
+      </div>
+    </div>
+    <div class="login-content hidden-login items-center h-screen lg:h-full justify-center w-full lg:w-1/2">
+      <div class="login-content flex flex-col items-center justify-between w-11/12 h-screen lg:h-full lg:w-full">
+        <div class="top-part flex flex-col items-center lg:mt-8 big:mt-40 w-full">
+          <img class="h-14 w-14 lg:h-20 lg:w-20" src="./assets/images/paritie-logo.png" alt="paritie logo">
+          <h3 class="text-ui-head font-bold text-2xl lg:text-3xl mt-2 lg:mt-3 big:mt-4">Login</h3>
+          <p class="text-ui-text text-center text-sm lg:text-lg mt-2 big:mt-3">Please Log in to use the internet<br>Hotspot service.</p>
+          <form class="flex flex-col items-center mt-3 lg:mt-5 big:mt-6 lg:w-1/2">
+            <div class="for-username w-full lg:mb-4 big:mb-5">
+              <p class="text-black font-medium mb-1 text-sm lg:text-base">Username</p>
+              <input class="w-full p-3 rounded-4xl font-bold text-sm lg:text-base text-ui-text" type="text" name="username" id="username" placeholder="Prime">
+            </div>
+            <div class="for-password w-full mb-4 big:mb-5">
+              <p class="text-black font-medium mb-1 text-base">Password</p>
+              <input class="w-full p-3 rounded-4xl font-bold text-base text-ui-text" type="password" name="password" id="password" placeholder="10239920211">
+            </div>
+            <button class="login cursor-pointer font-bold text-white mt-2 bg-ui-pri py-3 text-sm lg:py-4 w-full rounded-4xl">Log In</button>
+            <a class="text-ui-base font-medium text-sm lg:text-base mt-4 big:mt-5" href="#">Try for free</a>
+          </form>
+        </div>
+        
+        <div class="bottom-part flex flex-col lg:mb-20 items-center w-full">
+          <div class="socials flex items-center justify-between w-52">
+            <a class="ig rounded-full flex items-center justify-center w-10 h-10 bg-ui-pri ">
+              <img src="./assets/images/instagram.svg" alt="instargam icon">
+            </a>
+            <a class="twt rounded-full flex items-center justify-center w-10 h-10 bg-ui-pri ">
+              <img src="./assets/images/twitter.svg" alt="twitter icon">
+            </a>
+            <a class="link rounded-full flex items-center justify-center w-10 h-10 bg-ui-pri ">
+              <img src="./assets/images/linkedin.svg" alt="linkedin icon">
+            </a>
+          </div>
+          <p class="text-ui-text text-center text-xs lg:text-lg mt-3">Powered by Paritie Dynamic Enterprise Limited.</p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="login-success hidden flex-col absolute bg-ui-base bg-opacity-90 w-full h-full items-center justify-center z-10">
+      <div class="message-par w-full h-full items-center justify-center flex flex-col">
+        <div class="success-message flex flex-col items-center text-center w-full lg:w-1/2">
+          <img class="h-14 w-14 lg:h-20 lg:w-20" src="./assets/images/paritie-logo.png" alt="paritie logo">
+          <h4 class="font-medium text-ui-pri my-5 text-2xl lg:text-3xl big:text-4xl">You are Logged in</h4>
+          <p class="text-ui-pri text-lg lg:text-xl font-medium">If nothing happens, <a href="dashboard.html" class="text-white font-bold text-lg lg:text-2xl">Click Here</span></p>
+        </div>
+        <div class="bottom-screen-part absolute bottom-0 left-0 hidden lg:flex flex-col mb-10 items-center w-full">
+          <div class="socials flex items-center justify-between w-52">
+            <a class="ig rounded-full flex items-center justify-center w-10 h-10 bg-ui-pri ">
+              <img src="./assets/images/instagram.svg" alt="instargam icon">
+            </a>
+            <a class="twt rounded-full flex items-center justify-center w-10 h-10 bg-ui-pri ">
+              <img src="./assets/images/twitter.svg" alt="twitter icon">
+            </a>
+            <a class="link rounded-full flex items-center justify-center w-10 h-10 bg-ui-pri ">
+              <img src="./assets/images/linkedin.svg" alt="linkedin icon">
+            </a>
+          </div>
+          <p class="text-ui-succ text-opacity-80 text-center text-lg mt-3">Powered by Paritie Dynamic Enterprise Limited.</p>
+        </div>   
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

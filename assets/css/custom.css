@@ -1,0 +1,97 @@
+body {
+  font-family: "GT Walsheim Pro", sans-serif;
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+ /* TEXT ANIMATION */
+.text-anim {
+  transition: all 300ms;
+  transform: translateX(0);
+  opacity: 0;
+}
+
+.auto-anim {
+  transform: translateX(0);
+  opacity: 1;
+   -webkit-animation: slide-up-fade-in ease 0.4s;
+  animation: slide-up-fade-in ease 0.4s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+}
+
+.fadeOut-anim {
+  display: none;
+  transition: all 0.4s ease-in-out;
+}
+
+@keyframes slide-up-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+/* END OF TEXT ANIMATION */
+
+form input {
+  border: 1px solid #707070B1;
+}
+
+.hidden-login {
+  display: flex;
+}
+
+/* DASHBOARD PAGE */
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  transform: rotate(-45deg);
+  position: absolute;
+  right: 0;
+  bottom: 8.5px;
+}
+.top-dash {
+  border: 1px solid #70707055;
+}
+.logout {
+  background-color: #FEBE4415;
+  border: 0.5px solid #FEBE4467;
+}
+
+@media screen and (max-width: 1024px) {
+  .top-part {
+    margin-top: 15%;
+  }
+  .for-username {
+    margin-bottom: 6%;
+  }
+  .workspace {
+    width: 90%;
+  }
+  .hidden-login {
+    display: none;
+  }
+  .blue-bg {
+    height: 60%;
+  }
+  .dash-in {
+    height: 50%;
+  }
+  .top-dash {
+    border: none;
+  }
+}
