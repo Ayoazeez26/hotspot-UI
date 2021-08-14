@@ -96,5 +96,12 @@ form input {
   }
   .dash-in {
     border: 1px solid #70707055;
+    border-top-left-radius: 42px;
+    border-top-right-radius: 42px;
+    margin-top: -30px;
+    z-index: 1;
+    border-bottom: none;
+    position: relative;
+    background-color: white;
   }
 }
