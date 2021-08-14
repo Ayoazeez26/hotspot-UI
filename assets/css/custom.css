@@ -94,4 +94,7 @@ form input {
   .top-dash {
     border: none;
   }
+  .dash-in {
+    border: 1px solid #70707055;
+  }
 }
